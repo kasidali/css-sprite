@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .inner {
+            width: 190px;
+            background-color: #d5f4f5;
+            padding: 20px 30px;
+        }
+        .tp{
+            width: 190px; height: 30px;
+            text-indent: 10px;
+        }
+        input[type="password"]{margin-top:10px;}
+        p{font-size:12px;margin-top:10px;overflow:hidden;}
+        p input{vertical-align:top;margin-right:4px;}
+        p a{text-decoration:none;float:right;}
+        input[type="button"]{width:190px;height:37px;border:0;margin-top:15px;cursor:pointer;}
+        #login{background:url(http://img.mukewang.com/539a972b00013e9102280177.jpg);}
+        #enroll{background:url(http://img.mukewang.com/539a972b00013e9102280177.jpg) 0 -37px;}
+        hr{margin-top:20px;color:#f5f5ef;}
+        </style>
+</head>
+<body>
+    <div class="inner">
+        <form>
+            <input class="tp" type="text" placeholder="邮箱/手机/用户名" />
+            <input class="tp" type="password" placeholder="请输入密码" />
+            <p>
+                <input type="checkbox" />自动登录
+                <a href="javascript:;">忘记密码?</a>
+            </p>
+            <input  id="login" type="button">
+            <hr />
+            <input  id="enroll" type="button">
+        </form>
+    </div>
+</body>
+</html>
